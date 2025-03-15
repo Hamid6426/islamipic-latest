@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Image Preview</title>
+  <link rel="stylesheet" href="preview.css" />
+</head>
+<body>
+  <nav class="navbar">
+  </nav>
+
+  <main id="preview-container">
+    <div id="loading">Loading image...</div>
+    <div id="error" class="error-message"></div>
+    <div id="image-content" class="hidden">
+      <img id="image-preview" src="" alt="Image Preview" class="preview-image" />
+      <h1 id="image-title"></h1>
+      <p id="image-description"></p>
+      <div class="actions">
+        <button id="download-btn">Download</button>
+        <button id="embed-btn">Embed</button>
+        <button id="share-btn">Share</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 My App</p>
+  </footer>
+
+  <script src="preview.js"></script>
+</body>
+</html>
